@@ -14,4 +14,4 @@ gem 'spring', group: :development # Spring speeds up development by keeping your
 # gem 'bcrypt', '~> 3.1.7' # Use ActiveModel has_secure_password
 # gem 'unicorn' # Use unicorn as the app server
 # gem 'capistrano-rails', group: :development # Use Capistrano for deployment
-gem 'pry', group: :development # debugger
+gem 'pry-byebug', group: :development # debugger
