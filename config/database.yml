@@ -35,5 +35,5 @@ production:
   database: photoaday_test
   pool: 5
   username: root
-  password:
+  password: Password123
   socket: /tmp/mysql.sock
