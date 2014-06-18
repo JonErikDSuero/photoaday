@@ -14,7 +14,8 @@ development:
   database: photoaday_development
   pool: 5
   username: root
-  socket:
+  password:
+  # socket: /var/run/mysqld/mysqld.sock
 
 #/tmp/mysql.sock
 # Warning: The database defined as "test" will be erased and
@@ -27,7 +28,7 @@ test:
   pool: 5
   username: root
   password:
-  socket: /tmp/mysql.sock
+  # socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
@@ -35,5 +36,5 @@ production:
   database: photoaday_production
   pool: 5
   username: root
-  password: Password123
-  socket: /tmp/mysql.sock
+  password:
+  # socket: /var/run/mysqld/mysqld.sock
