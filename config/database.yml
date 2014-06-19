@@ -14,7 +14,7 @@ development:
   database: photoaday_development
   pool: 5
   username: root
-  password:
+  password: 6cF7vP54Vn6aR5aH
   # socket: /var/run/mysqld/mysqld.sock
 
 #/tmp/mysql.sock
@@ -27,7 +27,7 @@ test:
   database: photoaday_test
   pool: 5
   username: root
-  password:
+  password: 6cF7vP54Vn6aR5aH
   # socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -36,5 +36,5 @@ production:
   database: photoaday_production
   pool: 5
   username: root
-  password:
+  password: 6cF7vP54Vn6aR5aH
   # socket: /var/run/mysqld/mysqld.sock
