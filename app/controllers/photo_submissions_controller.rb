@@ -2,7 +2,7 @@ class PhotoSubmissionsController < ApplicationController
 
   def index
     photo_submissions = PhotoSubmission.all
-    render json: photo_submissions
+    render json: Rails.env # Erik, photo_submissions
   end
 
   def create
