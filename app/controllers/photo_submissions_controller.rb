@@ -5,6 +5,7 @@ class PhotoSubmissionsController < ApplicationController
     render json: photo_submissions
   end
 
+
   def create
     photo_submission = PhotoSubmission.new(user_id: params[:user_id])
     photo_submission.photo = params[:photo]
